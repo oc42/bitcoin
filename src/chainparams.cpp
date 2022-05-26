@@ -58,6 +58,8 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  * Main network on which people trade goods and services.
  */
 class CMainParams : public CChainParams {
+    //~(_8^(I) Inheritance Derived class: Base class
+    
 public:
     CMainParams() {
         strNetworkID = CBaseChainParams::MAIN;
